@@ -1,5 +1,7 @@
 # todo-vue-cli3
 
+Vue.js + Vue Router + Firestoreを使って、データにアクセスして表示するサンプル。最初はTODOアプリを作る予定だったためリポジトリ名が内容とは矛盾している。
+
 ## Project setup
 ```
 yarn install
