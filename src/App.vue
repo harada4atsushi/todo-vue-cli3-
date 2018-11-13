@@ -1,20 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <Ramens />
+    <router-link to="/">HelloWorld</router-link>&nbsp;
+    <router-link to="/search_ip">Search IP</router-link>&nbsp;
+    <router-link to="/ramens">Ramens</router-link>&nbsp;
+    <router-view />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Ramens from './components/Ramens.vue'
-
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    HelloWorld,
-    Ramens
   }
 }
 </script>
