@@ -18,7 +18,7 @@ export default {
     }
   },
   mounted() {
-    db.collection('ramens').get().then(snap => {
+    db.collection('ramens').where('uid', '==', 'RNQ4fe5UwEeSCxT2p39TPi4kx2Z2').get().then(snap => {
       const array = [];
       snap.forEach(doc => {
         array.push(doc.data());
